@@ -1,0 +1,10 @@
+Nonterminals
+S,A,B
+
+Terminals
+a,b
+
+Rules
+S -> aAB
+A -> aA|b
+B -> b
