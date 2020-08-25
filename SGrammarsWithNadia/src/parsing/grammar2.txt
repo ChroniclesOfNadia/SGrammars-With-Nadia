@@ -1,0 +1,23 @@
+Nonterminals
+S,R,L,C,A,Y,P,Z,X,T,D
+
+Terminals
+{,},x,=,y,+,z,i,t,e,d
+
+String
+{x=y+z}
+
+Rules
+S -> {LR
+R -> }
+L -> xAYPZ|iXTLC
+C -> d|eLD 
+A -> =
+Y -> y
+P -> +
+Z -> z
+X -> x
+T -> t
+D -> d
+
+ 

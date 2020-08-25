@@ -1,0 +1,13 @@
+Nonterminals
+S,A,B
+
+Terminals
+a,b
+
+String
+abb
+
+Rules
+S -> aAB
+A -> aA|b
+B -> b
